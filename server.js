@@ -34,11 +34,7 @@ app.get("/reportjson", (req, res) => {
           body: body,
         },
 
-        (error, response, body) => {
-            if (error) {
-              console.log(error);
-            } else {
-              console.log(body);
+   
 
             
   
